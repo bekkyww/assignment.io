@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacts</a>
+          </li>
+        </ul>
+        <button id="theme-toggle" class="btn btn-outline-dark ms-3">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="intro d-flex flex-column flex-md-row align-items-center justify-content-center py-5">
+      <img src="icons/ico.jpg" alt="My Photo" class="rounded-circle mb-4 mb-md-0" style="width: 200px; height: 200px; object-fit: cover;">
+      <div class="text-center text-md-start ms-md-5">
+        <h1>Hello, I'm Beksultan</h1>
+        <p>I am a student of Astana IT University. Welcome to my portfolio website!</p>
+      </div>
+    </section>
+
+    <section id="projects" class="work-samples py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">My Projects</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-md-3">
+            <div class="project-card p-4">
+              <h3>Personal Website</h3>
+              <p><strong>Date:</strong> March 2025</p>
+              <p>A fully responsive personal portfolio website built from scratch.</p>
+              <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+              <a href="#">View Project</a>
+              <button class="btn btn-primary mt-2">Learn More</button>
+            </div>
+          </div>          <div class="col-md-3">
+            <div class="project-card p-4">
+              <h3>To-Do List App</h3>
+              <p><strong>Date:</strong> February 2025</p>
+              <p>A task management app that allows users to create, edit, and remove tasks.</p>
+              <p><strong>Tech:</strong> HTML, CSS, JS (Vanilla)</p>
+              <a href="#">Try Demo</a>
+              <button class="btn btn-primary mt-2">Learn More</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="project-card p-4">
+              <h3>Weather App</h3>
+              <p><strong>Date:</strong> January 2025</p>
+              <p>Real-time weather app using OpenWeather API. Lets users search any city to view temperature, weather conditions, and forecasts.</p>
+              <p><strong>Tech:</strong> HTML, CSS, JS, OpenWeather API</p>
+              <a href="#">View Code</a>
+              <button class="btn btn-primary mt-2">Learn More</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="project-card p-4">
+              <h3>Portfolio Gallery</h3>
+              <p><strong>Date:</strong> December 2024</p>
+              <p>An image gallery featuring filter buttons, hover effects, and full-screen previews.</p>
+              <p><strong>Tech:</strong> HTML, CSS, Lightbox JS</p>
+              <a href="#">See Gallery</a>
+              <button class="btn btn-primary mt-2">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>Contact me at: am4genldy@gmail.com</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/bek3lt4n/" class="text-white me-3">Instagram</a>
+        <a href="https://www.linkedin.com/in/beksultan-amangeldy-193486244/" class="text-white me-3">LinkedIn</a>
+        <a href="https://github.com/bekkyww" class="text-white">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
